@@ -45,3 +45,9 @@ docker run --rm -p 8501:8501 kpi-matrix-lab
 ```
 
 For a hosted UI, deploy `app.py` with Streamlit Community Cloud using this repository (private repository access depends on your Streamlit plan/account). The repository itself does not provision paid hosting.
+
+## Weekly detection experiment — standalone report
+
+Open [`reports/weekly_detection.html`](reports/weekly_detection.html) in a browser (download the file from GitHub first). It embeds all charts and works offline. It includes the original US pairs, controlled level/growth/shape departures, tuning and independent held-out results, false-alert estimates and alternative methods for large KPI universes.
+
+Regenerate with `python build_report.py`. See [WEEKLY_DETECTION.md](WEEKLY_DETECTION.md) for experiment definitions and references. The optional **Weekly detection lab** tab exposes the same causal benchmark. Exploratory tabs now label scores by **window-ending date**; they remain retrospective, as disclosed in the UI.
