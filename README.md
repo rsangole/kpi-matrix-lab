@@ -64,3 +64,11 @@ python run_suite.py
 Open `reports/performance_280.html` for measured runtime/memory and `reports/event_suite_280.html` for held-out error metrics over level shifts, random spikes, temporary seasonality, gradual trends, rise/recovery, LOB offers, developing-market offers, English-market offers, and their mixed overlap. Both reports embed charts for offline viewing. On GitHub Pages, the root landing page links to all reports.
 
 The event suite evaluates five detector families: frozen-history matrix profiles, learned-peer shape distances, peer residual means, peer residual spikes and residual CUSUM. Training and calibration each use 56 days of the 180-day history. Four seeds tune settings; eight separate seeds validate, at two noise levels. Counts and settings are exported in `data/event_suite_*.csv`; the reproducible mixed dataset and exact event ledger are included. Full methodology and limitations appear in the report.
+
+## Ensembles, weekly aggregation and trailing LOESS
+
+Run `python run_extensions.py` to compare raw daily detectors, equal/weighted score fusion, OR/voting, completed seven-day aggregation, causal trailing LOESS (7/14/28/42 days), and raw-plus-transformed ensembles. The extension uses fresh tuning seeds 142–147 and fresh held-out seeds 20042–20049, the same nine event scenarios and two noise levels. It evaluates 96 score candidates / 552 settings per dataset. Weights and other settings are selected only on tuning results under the existing 5% per-signal control-alert budget.
+
+The event HTML includes a dedicated section with held-out comparisons, paired seed-bootstrap lift intervals, weight grids, smoothing and aggregation illustrations, and scenario-level errors. Raw extension counts are compressed in `data/extensions_runs.csv.gz`. Weekly methods use only completed bins and trailing LOESS never uses future observations. The report explains the reduced weekly sample size, effective smoothing history and false-alert trade-offs.
+
+To regenerate only the HTML from saved results, run `python render_event_report.py`; no simulation rerun is needed.

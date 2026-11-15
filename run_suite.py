@@ -107,8 +107,11 @@ def report(runs,chosen,summary,details,timing,meta):
         return html
     def table(x): return x.to_html(index=False,border=0,float_format=lambda x:f'{x:.3f}')
     parts.append('''<h1>Weekly event detection across 280 business signals</h1><p class="lead">Seven LOBs · forty geographies · six months of daily data. Runtime and error metrics, measured separately.</p><p>All signals, offer targeting and event labels are synthetic. This report uses controlled event truth to evaluate detection, not visual judgment. No production service level is implied.</p>''')
+    parts.append('<p><a href="#extensions">New: ensembles, weekly aggregation and trailing LOESS experiments</a></p>')
     from anomaly_examples import visual_examples
     parts.append(visual_examples(chart))
+    from extension_report import section
+    parts.append(section(chart))
     parts.append('<h2>Held-out results</h2><p>One setting per detector family is chosen only on tuning seeds, maximizing weekly-label F1 under a 5% per-signal unchanged-control weekly flag budget. If no setting meets that budget, show the least-false-alert setting explicitly as a budget failure rather than hiding the family. The following results use separate held-out seeds. Rates are fractions: 0.5 = 50%. The budget is not a guarantee on held-out data or across all 280 signals.</p>')
     cols=['method','precision','recall','f1','false_positive_rate','event_recall_7d','event_recall_14d','miss_rate_14d','control_weekly_flag_rate','control_family_report_rate','mean_delay_detected_days']
     parts.append(table(summary[cols]))

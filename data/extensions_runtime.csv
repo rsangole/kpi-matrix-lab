@@ -1,0 +1,281 @@
+split,seed,noise,scenario,seconds
+tuning,142,0.8,Control,1.0931444620073307
+tuning,142,0.8,Level shift,0.9744365059887059
+tuning,142,0.8,Random spikes,1.0093552700127475
+tuning,142,0.8,Temporary seasonality,0.9398169389896793
+tuning,142,0.8,Gradual trend,0.9022989869990852
+tuning,142,0.8,Rise and recovery,1.0345567539916374
+tuning,142,0.8,LOB offer,1.0230266750004375
+tuning,142,0.8,Developing-market offer,0.937236085999757
+tuning,142,0.8,English-market offer,0.9530411680025281
+tuning,142,0.8,Mixed events,0.9295573989948025
+tuning,143,0.8,Control,0.9642994749883655
+tuning,143,0.8,Level shift,0.9545059800002491
+tuning,143,0.8,Random spikes,1.0030641960038338
+tuning,143,0.8,Temporary seasonality,0.9980397640028968
+tuning,143,0.8,Gradual trend,0.9804046679928433
+tuning,143,0.8,Rise and recovery,0.9608705699938582
+tuning,143,0.8,LOB offer,0.9605853019893402
+tuning,143,0.8,Developing-market offer,0.9641133969998918
+tuning,143,0.8,English-market offer,0.9881606170092709
+tuning,143,0.8,Mixed events,1.0097265229996992
+tuning,144,0.8,Control,1.0147510719980346
+tuning,144,0.8,Level shift,1.0142937829950824
+tuning,144,0.8,Random spikes,0.9752891870011808
+tuning,144,0.8,Temporary seasonality,0.9581839179882081
+tuning,144,0.8,Gradual trend,0.9826328059862135
+tuning,144,0.8,Rise and recovery,0.952761073000147
+tuning,144,0.8,LOB offer,1.065015970991226
+tuning,144,0.8,Developing-market offer,1.0566352929890854
+tuning,144,0.8,English-market offer,1.0333931309869513
+tuning,144,0.8,Mixed events,1.0086117070022738
+tuning,145,0.8,Control,0.9541715399973327
+tuning,145,0.8,Level shift,0.9624752230010927
+tuning,145,0.8,Random spikes,0.9133996700111311
+tuning,145,0.8,Temporary seasonality,0.9079341900069267
+tuning,145,0.8,Gradual trend,0.9369184329989366
+tuning,145,0.8,Rise and recovery,0.967619276008918
+tuning,145,0.8,LOB offer,1.028064069992979
+tuning,145,0.8,Developing-market offer,0.9478564320015721
+tuning,145,0.8,English-market offer,0.9808661819988629
+tuning,145,0.8,Mixed events,0.9905346899904544
+tuning,146,0.8,Control,0.9757383870019112
+tuning,146,0.8,Level shift,1.001319130009506
+tuning,146,0.8,Random spikes,0.9879973200004315
+tuning,146,0.8,Temporary seasonality,0.9190540190029424
+tuning,146,0.8,Gradual trend,0.9493194239912555
+tuning,146,0.8,Rise and recovery,0.9733119739976246
+tuning,146,0.8,LOB offer,0.9406458500016015
+tuning,146,0.8,Developing-market offer,0.9277060649910709
+tuning,146,0.8,English-market offer,0.9150639649888035
+tuning,146,0.8,Mixed events,0.9299187169963261
+tuning,147,0.8,Control,0.9266135960060637
+tuning,147,0.8,Level shift,0.9820120509975823
+tuning,147,0.8,Random spikes,0.9628677180007799
+tuning,147,0.8,Temporary seasonality,1.0298282840085449
+tuning,147,0.8,Gradual trend,1.036990689986851
+tuning,147,0.8,Rise and recovery,0.9843362990068272
+tuning,147,0.8,LOB offer,0.9663226580014452
+tuning,147,0.8,Developing-market offer,1.0101802529970882
+tuning,147,0.8,English-market offer,0.9522398529952625
+tuning,147,0.8,Mixed events,0.9377584409958217
+tuning,142,1.6,Control,0.9364164940052433
+tuning,142,1.6,Level shift,1.0435851529909996
+tuning,142,1.6,Random spikes,0.9799825679947389
+tuning,142,1.6,Temporary seasonality,0.9576276439911453
+tuning,142,1.6,Gradual trend,1.1137161899969215
+tuning,142,1.6,Rise and recovery,1.0509394300024724
+tuning,142,1.6,LOB offer,1.1116626510047354
+tuning,142,1.6,Developing-market offer,0.9998238910047803
+tuning,142,1.6,English-market offer,0.966042511005071
+tuning,142,1.6,Mixed events,1.0371744559961371
+tuning,143,1.6,Control,1.096687612007372
+tuning,143,1.6,Level shift,0.9326306199945975
+tuning,143,1.6,Random spikes,0.9931676980049815
+tuning,143,1.6,Temporary seasonality,1.008556796994526
+tuning,143,1.6,Gradual trend,0.9283145790104754
+tuning,143,1.6,Rise and recovery,0.941482480004197
+tuning,143,1.6,LOB offer,0.9759803279885091
+tuning,143,1.6,Developing-market offer,0.9723651539970888
+tuning,143,1.6,English-market offer,0.981953558002715
+tuning,143,1.6,Mixed events,0.9830461629899219
+tuning,144,1.6,Control,0.954866687010508
+tuning,144,1.6,Level shift,0.9987376689969096
+tuning,144,1.6,Random spikes,0.9477427410020027
+tuning,144,1.6,Temporary seasonality,0.962653857000987
+tuning,144,1.6,Gradual trend,0.9615708390047075
+tuning,144,1.6,Rise and recovery,0.9507463830086635
+tuning,144,1.6,LOB offer,0.943905330990674
+tuning,144,1.6,Developing-market offer,0.976429612011998
+tuning,144,1.6,English-market offer,0.9398869260039646
+tuning,144,1.6,Mixed events,1.0001072579907486
+tuning,145,1.6,Control,0.9562213360040914
+tuning,145,1.6,Level shift,0.9764691710006446
+tuning,145,1.6,Random spikes,0.9298623590002535
+tuning,145,1.6,Temporary seasonality,1.024921940988861
+tuning,145,1.6,Gradual trend,1.0031048800010467
+tuning,145,1.6,Rise and recovery,1.0390864649962168
+tuning,145,1.6,LOB offer,1.0026626460021362
+tuning,145,1.6,Developing-market offer,0.9634173399972497
+tuning,145,1.6,English-market offer,0.9742813640041277
+tuning,145,1.6,Mixed events,0.9564674230059609
+tuning,146,1.6,Control,0.944768738001585
+tuning,146,1.6,Level shift,0.9403852949908469
+tuning,146,1.6,Random spikes,0.9206123359908815
+tuning,146,1.6,Temporary seasonality,0.9172513060038909
+tuning,146,1.6,Gradual trend,1.0087755959975766
+tuning,146,1.6,Rise and recovery,0.9934977259981679
+tuning,146,1.6,LOB offer,1.016860172007
+tuning,146,1.6,Developing-market offer,1.0039094169915188
+tuning,146,1.6,English-market offer,1.0133975710050436
+tuning,146,1.6,Mixed events,0.9947797530039679
+tuning,147,1.6,Control,1.0187876720010536
+tuning,147,1.6,Level shift,0.9742313769966131
+tuning,147,1.6,Random spikes,1.035531486995751
+tuning,147,1.6,Temporary seasonality,1.0365806600020733
+tuning,147,1.6,Gradual trend,0.9441035760100931
+tuning,147,1.6,Rise and recovery,1.000149034007336
+tuning,147,1.6,LOB offer,0.9445349660090869
+tuning,147,1.6,Developing-market offer,0.9511850569979288
+tuning,147,1.6,English-market offer,0.9439292439928977
+tuning,147,1.6,Mixed events,0.9537629620026564
+heldout,20042,0.8,Control,0.960930688001099
+heldout,20042,0.8,Level shift,0.9224138559948187
+heldout,20042,0.8,Random spikes,0.9167140479985392
+heldout,20042,0.8,Temporary seasonality,0.9152138249919517
+heldout,20042,0.8,Gradual trend,0.9950220710015856
+heldout,20042,0.8,Rise and recovery,0.9779684459936107
+heldout,20042,0.8,LOB offer,0.9690489950007759
+heldout,20042,0.8,Developing-market offer,0.9768813470000168
+heldout,20042,0.8,English-market offer,1.0015508729993599
+heldout,20042,0.8,Mixed events,1.0068822629982606
+heldout,20043,0.8,Control,1.0514354890037794
+heldout,20043,0.8,Level shift,0.9933673999912571
+heldout,20043,0.8,Random spikes,0.9710394510038896
+heldout,20043,0.8,Temporary seasonality,0.9351279429974966
+heldout,20043,0.8,Gradual trend,0.9727911990048597
+heldout,20043,0.8,Rise and recovery,1.013765517011052
+heldout,20043,0.8,LOB offer,0.9782851240015589
+heldout,20043,0.8,Developing-market offer,0.9520820870093303
+heldout,20043,0.8,English-market offer,0.9757862490077969
+heldout,20043,0.8,Mixed events,0.9410914050095016
+heldout,20044,0.8,Control,0.9141862350079464
+heldout,20044,0.8,Level shift,0.9704658830014523
+heldout,20044,0.8,Random spikes,0.9777039850014262
+heldout,20044,0.8,Temporary seasonality,0.9810433469974669
+heldout,20044,0.8,Gradual trend,0.925805652004783
+heldout,20044,0.8,Rise and recovery,0.9412181910010986
+heldout,20044,0.8,LOB offer,1.001290650005103
+heldout,20044,0.8,Developing-market offer,0.9901604170008795
+heldout,20044,0.8,English-market offer,0.9495228140003746
+heldout,20044,0.8,Mixed events,0.945760746995802
+heldout,20045,0.8,Control,0.9615817550075008
+heldout,20045,0.8,Level shift,0.9894185919984011
+heldout,20045,0.8,Random spikes,0.9541415470011998
+heldout,20045,0.8,Temporary seasonality,0.9182466469937935
+heldout,20045,0.8,Gradual trend,0.916140733010252
+heldout,20045,0.8,Rise and recovery,0.9151517549908021
+heldout,20045,0.8,LOB offer,0.9164469830138842
+heldout,20045,0.8,Developing-market offer,0.9149932610016549
+heldout,20045,0.8,English-market offer,0.9255723969981773
+heldout,20045,0.8,Mixed events,0.9177894669992384
+heldout,20046,0.8,Control,0.9318911680020392
+heldout,20046,0.8,Level shift,0.9544304180017207
+heldout,20046,0.8,Random spikes,0.9369979559996864
+heldout,20046,0.8,Temporary seasonality,0.9336078680062201
+heldout,20046,0.8,Gradual trend,0.9365866169973742
+heldout,20046,0.8,Rise and recovery,0.9229712170053972
+heldout,20046,0.8,LOB offer,0.9616147960041417
+heldout,20046,0.8,Developing-market offer,0.9737766939942958
+heldout,20046,0.8,English-market offer,0.9262060730106896
+heldout,20046,0.8,Mixed events,0.9485865309979999
+heldout,20047,0.8,Control,0.9522763459972339
+heldout,20047,0.8,Level shift,1.0095373169897357
+heldout,20047,0.8,Random spikes,0.9947057249955833
+heldout,20047,0.8,Temporary seasonality,0.9941290299902903
+heldout,20047,0.8,Gradual trend,1.0208984539931407
+heldout,20047,0.8,Rise and recovery,1.0109356390021276
+heldout,20047,0.8,LOB offer,0.9630636780057102
+heldout,20047,0.8,Developing-market offer,0.9911031189985806
+heldout,20047,0.8,English-market offer,0.9475628299987875
+heldout,20047,0.8,Mixed events,0.9325952939980198
+heldout,20048,0.8,Control,1.0001103390095523
+heldout,20048,0.8,Level shift,0.9934491849999176
+heldout,20048,0.8,Random spikes,0.9491325059934752
+heldout,20048,0.8,Temporary seasonality,1.0375984480051557
+heldout,20048,0.8,Gradual trend,0.9760874159983359
+heldout,20048,0.8,Rise and recovery,0.9671692950068973
+heldout,20048,0.8,LOB offer,0.9650489100022241
+heldout,20048,0.8,Developing-market offer,1.0057930249895435
+heldout,20048,0.8,English-market offer,1.020762879998074
+heldout,20048,0.8,Mixed events,0.9203098340076394
+heldout,20049,0.8,Control,0.9345034360012505
+heldout,20049,0.8,Level shift,0.9277149639965501
+heldout,20049,0.8,Random spikes,0.991073402998154
+heldout,20049,0.8,Temporary seasonality,1.0631191909924382
+heldout,20049,0.8,Gradual trend,0.9463439699902665
+heldout,20049,0.8,Rise and recovery,0.9946103149995906
+heldout,20049,0.8,LOB offer,0.9751959040004294
+heldout,20049,0.8,Developing-market offer,0.9898184859921457
+heldout,20049,0.8,English-market offer,0.9682288890035124
+heldout,20049,0.8,Mixed events,0.994316358002834
+heldout,20042,1.6,Control,0.9804535709990887
+heldout,20042,1.6,Level shift,0.9387110579991713
+heldout,20042,1.6,Random spikes,0.9593666620057775
+heldout,20042,1.6,Temporary seasonality,0.9387021799921058
+heldout,20042,1.6,Gradual trend,0.9407019720092649
+heldout,20042,1.6,Rise and recovery,0.9607591100066202
+heldout,20042,1.6,LOB offer,0.9540513399988413
+heldout,20042,1.6,Developing-market offer,0.9788830030011013
+heldout,20042,1.6,English-market offer,1.0338033199950587
+heldout,20042,1.6,Mixed events,0.9937076880014502
+heldout,20043,1.6,Control,0.9513687170110643
+heldout,20043,1.6,Level shift,0.9649449020071188
+heldout,20043,1.6,Random spikes,0.9434901619970333
+heldout,20043,1.6,Temporary seasonality,1.0174791350000305
+heldout,20043,1.6,Gradual trend,0.926315689997864
+heldout,20043,1.6,Rise and recovery,0.9294610299984924
+heldout,20043,1.6,LOB offer,0.9700662800023565
+heldout,20043,1.6,Developing-market offer,0.9879365960077848
+heldout,20043,1.6,English-market offer,0.9527491080079926
+heldout,20043,1.6,Mixed events,0.9993118400016101
+heldout,20044,1.6,Control,0.9590678960084915
+heldout,20044,1.6,Level shift,0.9599518920003902
+heldout,20044,1.6,Random spikes,1.0331057000003057
+heldout,20044,1.6,Temporary seasonality,1.0186469489999581
+heldout,20044,1.6,Gradual trend,1.0046737639931962
+heldout,20044,1.6,Rise and recovery,0.9832843730109744
+heldout,20044,1.6,LOB offer,1.0633795589965302
+heldout,20044,1.6,Developing-market offer,1.019502149996697
+heldout,20044,1.6,English-market offer,1.0589783860050375
+heldout,20044,1.6,Mixed events,0.979148159007309
+heldout,20045,1.6,Control,0.9606579149985919
+heldout,20045,1.6,Level shift,0.9403115589957451
+heldout,20045,1.6,Random spikes,0.9514988209994044
+heldout,20045,1.6,Temporary seasonality,0.9382045270031085
+heldout,20045,1.6,Gradual trend,0.9746714610082563
+heldout,20045,1.6,Rise and recovery,1.031723394000437
+heldout,20045,1.6,LOB offer,1.0423736600059783
+heldout,20045,1.6,Developing-market offer,1.0106447330035735
+heldout,20045,1.6,English-market offer,1.0380362569994759
+heldout,20045,1.6,Mixed events,1.005412187994807
+heldout,20046,1.6,Control,1.0344068889971823
+heldout,20046,1.6,Level shift,0.9378510219976306
+heldout,20046,1.6,Random spikes,0.9921543529926566
+heldout,20046,1.6,Temporary seasonality,0.9775981109996792
+heldout,20046,1.6,Gradual trend,0.9576768900005845
+heldout,20046,1.6,Rise and recovery,0.9887882990005892
+heldout,20046,1.6,LOB offer,0.9887472169939429
+heldout,20046,1.6,Developing-market offer,1.0038223659939831
+heldout,20046,1.6,English-market offer,0.9557721019955352
+heldout,20046,1.6,Mixed events,0.9565692129981471
+heldout,20047,1.6,Control,1.0393551599991042
+heldout,20047,1.6,Level shift,1.057742443997995
+heldout,20047,1.6,Random spikes,0.9566932790039573
+heldout,20047,1.6,Temporary seasonality,0.9588280769967241
+heldout,20047,1.6,Gradual trend,0.9482164119981462
+heldout,20047,1.6,Rise and recovery,0.9755697570071789
+heldout,20047,1.6,LOB offer,0.9885255390108796
+heldout,20047,1.6,Developing-market offer,0.9635891579964664
+heldout,20047,1.6,English-market offer,0.9482230769935995
+heldout,20047,1.6,Mixed events,0.979726212011883
+heldout,20048,1.6,Control,1.0472142249927856
+heldout,20048,1.6,Level shift,0.9939454569976078
+heldout,20048,1.6,Random spikes,1.0297699340007966
+heldout,20048,1.6,Temporary seasonality,1.004968845998519
+heldout,20048,1.6,Gradual trend,1.0003392340004211
+heldout,20048,1.6,Rise and recovery,0.9887844430049881
+heldout,20048,1.6,LOB offer,0.9988958419999108
+heldout,20048,1.6,Developing-market offer,0.9895680000045104
+heldout,20048,1.6,English-market offer,1.0360061649989802
+heldout,20048,1.6,Mixed events,0.9552720520005096
+heldout,20049,1.6,Control,1.0543081459909445
+heldout,20049,1.6,Level shift,1.00632926801336
+heldout,20049,1.6,Random spikes,0.9604933390073711
+heldout,20049,1.6,Temporary seasonality,1.0206262889987556
+heldout,20049,1.6,Gradual trend,1.026715874002548
+heldout,20049,1.6,Rise and recovery,0.962657110998407
+heldout,20049,1.6,LOB offer,0.9717030899919337
+heldout,20049,1.6,Developing-market offer,1.0347348039940698
+heldout,20049,1.6,English-market offer,0.938893544007442
+heldout,20049,1.6,Mixed events,0.9184768039995106

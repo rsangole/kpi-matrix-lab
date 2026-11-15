@@ -1,0 +1,16 @@
+model,candidate,quantile,persistence,tuning_budget_met,tuning_control_flag_rate
+Daily single detector,Daily | Peer residual spike | 1d,0.95,3,True,0.005853174603174603
+Daily ensemble,Ensemble | weighted spike-heavy,0.995,3,True,0.006316137566137566
+Weekly aggregation,weekly residual / 1w,0.995,2,True,0.039947089947089946
+Daily + weekly ensemble,Daily + weekly | weekly weight 0.25,0.995,3,False,0.1150462962962963
+Trailing LOESS,LOESS 7d | Peer residual spike | 1d,0.995,3,True,0.008531746031746031
+Daily + LOESS ensemble,Daily + LOESS 14d | smoothed weight 0.25,0.995,3,False,0.13366402116402115
+Fusion: Equal-weight mean,Ensemble | weighted equal,0.995,3,False,0.10152116402116403
+Fusion: Tuned weighted mean,Ensemble | weighted spike-heavy,0.995,3,True,0.006316137566137566
+Fusion: Calibrated max,Ensemble | calibrated max,0.995,3,False,0.1787037037037037
+Fusion: Naive OR,Ensemble | OR | member q=0.995,0.0,3,False,0.2794973544973545
+Fusion: 2-of-5 vote,Ensemble | 2-of-5 vote | member q=0.995,0.0,3,False,0.07486772486772486
+LOESS span 7d,LOESS 7d | Peer residual spike | 1d,0.995,3,True,0.008531746031746031
+LOESS span 14d,LOESS 14d | Peer residual spike | 1d,0.995,3,True,0.03048941798941799
+LOESS span 28d,LOESS 28d | Peer shape distance | 7d,0.995,3,True,0.04580026455026455
+LOESS span 42d,LOESS 42d | Peer shape distance | 7d,0.995,3,True,0.038458994708994707

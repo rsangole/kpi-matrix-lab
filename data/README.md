@@ -17,3 +17,16 @@
 Weekly label denominators are signal/report instances, not independent observations. Event recall is series/event-instance recall; larger targeted cohorts contribute more instances. Noise levels and event types are pooled by counts, not equally weighted macro averages. Matched-control counts repeat across scenarios because each seed/noise uses the same no-event control; do not treat those repeats as independent trials. All detection metrics describe temporal association to injected events, not causal identification.
 
 The other CSV files are snapshots and results from the earlier two-series experiment.
+
+## Ensemble / aggregation / smoothing extension
+
+- `extensions_runs.csv.gz`: raw counts for every setting/seed/scenario/noise/split; gzip-compressed CSV.
+- `extensions_catalog.csv`: score candidates, group, weekly/daily frequency, and ensemble strategy.
+- `extensions_pooled.csv`: all settings on tuning and held-out seeds; select on tuning only.
+- `extensions_selected.csv`: tuning-selected settings for six main groups, five fusion rules and four LOESS spans; budget failures remain explicit.
+- `extensions_selected_runs.csv`: held-out per-seed counts for those selected policies.
+- `extensions_summary.csv` / `extensions_by_scenario.csv`: held-out metrics.
+- `extensions_lift.csv`: paired F1, seven-day event-recall and control-flag differences; 2,000 seed-cluster bootstrap draws. Intervals are exploratory and not multiple-comparison-adjusted.
+- `extensions_runtime.csv` / `extensions_metadata.json`: timing and protocol metadata.
+
+Extension tuning seeds are 142–147 and held-out seeds are 20042–20049, independent of the original benchmark seeds. All algorithms in a comparison share matched signals/events. Six-month histories produce only eight weekly training and eight weekly calibration observations. Weekly means are dated at bin completion. LOESS is trailing local-linear tricube smoothing without robust reweighting, evaluated at the latest observation. Weighted detector scores are calibration-scaled evidence, not probabilities.
