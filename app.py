@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 import plotly.express as px
 import streamlit as st
-from analysis import generate, preprocess, profile, relationships
+from analysis import generate, preprocess, profile, relationships_fast as relationships
 from detection import pair, sweep, evaluate, ONSET, TRAIN, CALIBRATION
 
 st.set_page_config(page_title='Signal Atlas · KPI Matrix Lab',page_icon='◈',layout='wide')
@@ -14,7 +14,8 @@ with st.sidebar:
     st.header('Experiment controls')
     seed=st.number_input('Random seed',0,100000,42)
     days=st.slider('History (daily observations)',180,900,540,30)
-    countries=st.slider('Countries per business',5,10,10)
+    countries=st.slider('Countries per business',5,40,10)
+    lobs=st.slider('Lines of business',1,7,5)
     noise=st.slider('Noise amplitude',0.,4.,.8,.1)
     strength=st.slider('Event strength',0.,30.,12.,1.)
     drift=st.toggle('Inject India TV+ group departure',True)
@@ -27,7 +28,7 @@ with st.sidebar:
 
 @st.cache_data
 def dataset(*args): return generate(*args)
-raw,events=dataset(days,countries,seed,noise,strength,drift)
+raw,events=dataset(days,countries,seed,noise,strength,drift,lobs)
 data=preprocess(raw,mode)
 a,b,c=st.columns(3)
 a.metric('Business signals',len(data.columns)); b.metric('Daily observations',days); c.metric('Planted events',len(events))

@@ -4,16 +4,19 @@ import pandas as pd
 from numpy.lib.stride_tricks import sliding_window_view
 
 COUNTRIES = ['US', 'UK', 'Canada', 'Australia', 'Germany', 'France', 'Japan', 'India', 'Brazil', 'China']
-PRODUCTS = ['TV+', 'App Store', 'Fitness+', 'News+', 'Apple TV hardware']
+COUNTRIES += ['Italy', 'Spain', 'Netherlands', 'Sweden', 'Norway', 'Denmark', 'Finland', 'Switzerland', 'Austria', 'Belgium', 'Ireland', 'Portugal', 'Poland', 'Czechia', 'Mexico', 'Argentina', 'Chile', 'Colombia', 'South Korea', 'Taiwan', 'Hong Kong', 'Singapore', 'Malaysia', 'Thailand', 'Indonesia', 'Philippines', 'Vietnam', 'New Zealand', 'UAE', 'South Africa']
+PRODUCTS = ['TV+', 'App Store', 'Fitness+', 'News+', 'Apple TV hardware', 'Music', 'Cloud storage']
 
-def generate(days=540, countries=10, seed=42, noise=0.8, strength=12., drift=True):
+def generate(days=540, countries=10, seed=42, noise=0.8, strength=12., drift=True, lobs=5):
+    if not 1 <= countries <= len(COUNTRIES) or not 1 <= lobs <= len(PRODUCTS):
+        raise ValueError("Supported range: 1–40 geographies and 1–7 LOBs")
     rng = np.random.default_rng(seed)
     t = np.arange(days)
     dates = pd.date_range('2024-01-01', periods=days)
     launch, promo, price = int(days*.3), int(days*.58), int(days*.77)
     events = pd.DataFrame({'day': [launch,promo,price], 'event': ['TV+ premiere', 'Services promotion', 'Price change / India regime shift']})
     signals = {}
-    for p, product in enumerate(PRODUCTS):
+    for p, product in enumerate(PRODUCTS[:lobs]):
         for c, country in enumerate(COUNTRIES[:countries]):
             base = 90 + p*23 + c*7
             organic = .025*t + 3*np.sin(2*np.pi*t/365) + 2*np.sin(2*np.pi*t/7+p*.3)
@@ -73,6 +76,40 @@ def relationships(data,m,anchor,lag,threshold):
             d1=distances(ws[i][anchor:anchor+1],ws[j][lo:hi],m).min()
             d2=distances(ws[j][anchor:anchor+1],ws[i][lo:hi],m).min()
             scores[i,j]=scores[j,i]=(d1+d2)/2
+    unseen=set(range(len(names))); groups=[]
+    while unseen:
+        todo=[min(unseen)]; group=[]
+        while todo:
+            i=todo.pop()
+            if i not in unseen: continue
+            unseen.remove(i); group.append(names[i])
+            todo.extend(j for j in sorted(unseen) if scores[i,j]<=threshold)
+        groups.append(group)
+    return pd.DataFrame(scores,index=names,columns=names),groups
+
+
+def relationships_fast(data,m,anchor,lag,threshold,causal=False):
+    """Vectorized exact local AB distances, equal to relationships in retrospective mode.
+
+    causal=True restricts candidate windows to ends <= the current anchor end.
+    Only the small series-by-series matrix is retained per lag, not a 4D join.
+    """
+    names=list(data.columns)
+    ws=np.stack([windows(data[n].values,m) for n in names])
+    anchor=int(np.clip(anchor,0,ws.shape[1]-1))
+    current=ws[:,anchor,:]
+    current_constant=np.linalg.norm(current,axis=1)<1e-10
+    best=np.full((len(names),len(names)),np.inf)
+    hi=anchor+1 if causal else min(ws.shape[1],anchor+lag+1)
+    for j in range(max(0,anchor-lag),hi):
+        candidate=ws[:,j,:]
+        d=np.sqrt(np.maximum(0,2-2*np.einsum('im,jm->ij',current,candidate,optimize=False)))
+        candidate_constant=np.linalg.norm(candidate,axis=1)<1e-10
+        d[current_constant,:]=1; d[:,candidate_constant]=1
+        d[np.ix_(current_constant,candidate_constant)]=0
+        best=np.minimum(best,d)
+    scores=(best+best.T)/2
+    np.fill_diagonal(scores,0)
     unseen=set(range(len(names))); groups=[]
     while unseen:
         todo=[min(unseen)]; group=[]

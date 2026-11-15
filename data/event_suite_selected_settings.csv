@@ -1,0 +1,6 @@
+method,window,quantile,persistence,tuning_budget_met,tuning_control_flag_rate
+Historical matrix profile,7,0.95,3,True,0.0403769841269841
+Peer residual CUSUM,0,0.995,3,False,0.303422619047619
+Peer residual mean,7,0.995,3,False,0.0699404761904761
+Peer residual spike,1,0.95,3,True,0.0047619047619047
+Peer shape distance,7,0.99,3,True,0.0363591269841269

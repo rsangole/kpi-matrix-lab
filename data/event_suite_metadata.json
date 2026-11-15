@@ -1,0 +1,32 @@
+{
+  "elapsed_seconds_before_report": 299.94807901100285,
+  "peak_process_RSS_MiB": 354.24609375,
+  "replicates": 216,
+  "settings_per_replicate": 84,
+  "tuning_seeds": [
+    42,
+    43,
+    44,
+    45
+  ],
+  "heldout_seeds": [
+    10042,
+    10043,
+    10044,
+    10045,
+    10046,
+    10047,
+    10048,
+    10049
+  ],
+  "noise": [
+    0.8,
+    1.6
+  ],
+  "amplitude": 5,
+  "days": 180,
+  "series": 280,
+  "train_days": 56,
+  "calibration_days": 56,
+  "numpy": "2.5.4"
+}

@@ -1,0 +1,241 @@
+split,noise,seed,scenario,stage,seconds
+tuning,0.8,42,No event,14 detector configurations,0.2768786259985063
+tuning,0.8,42,Level shift,14 detector configurations,0.19735296599537833
+tuning,0.8,42,Random spikes,14 detector configurations,0.26659632000519196
+tuning,0.8,42,Temporary seasonality,14 detector configurations,0.18094697700144025
+tuning,0.8,42,Gradual trend,14 detector configurations,0.17844490299466997
+tuning,0.8,42,Rise and recovery,14 detector configurations,0.1881267869976
+tuning,0.8,42,LOB offer,14 detector configurations,0.1967527910019271
+tuning,0.8,42,Developing-market offer,14 detector configurations,0.20237573100166628
+tuning,0.8,42,English-market offer,14 detector configurations,0.18570502999500604
+tuning,0.8,42,Mixed events,14 detector configurations,0.20431343000382185
+tuning,0.8,43,No event,14 detector configurations,0.19399544199404772
+tuning,0.8,43,Level shift,14 detector configurations,0.18364798900438473
+tuning,0.8,43,Random spikes,14 detector configurations,0.17619195400038734
+tuning,0.8,43,Temporary seasonality,14 detector configurations,0.19297556600213284
+tuning,0.8,43,Gradual trend,14 detector configurations,0.1805712540008244
+tuning,0.8,43,Rise and recovery,14 detector configurations,0.21763935199851403
+tuning,0.8,43,LOB offer,14 detector configurations,0.19018758399761282
+tuning,0.8,43,Developing-market offer,14 detector configurations,0.18952271500165807
+tuning,0.8,43,English-market offer,14 detector configurations,0.19516822400328238
+tuning,0.8,43,Mixed events,14 detector configurations,0.20509263100393582
+tuning,0.8,44,No event,14 detector configurations,0.20284922800055938
+tuning,0.8,44,Level shift,14 detector configurations,0.1887902349990327
+tuning,0.8,44,Random spikes,14 detector configurations,0.19290015399747062
+tuning,0.8,44,Temporary seasonality,14 detector configurations,0.18937257100333227
+tuning,0.8,44,Gradual trend,14 detector configurations,0.20344386099895928
+tuning,0.8,44,Rise and recovery,14 detector configurations,0.18817522400058806
+tuning,0.8,44,LOB offer,14 detector configurations,0.1941921600009664
+tuning,0.8,44,Developing-market offer,14 detector configurations,0.18788151400076458
+tuning,0.8,44,English-market offer,14 detector configurations,0.189898536002147
+tuning,0.8,44,Mixed events,14 detector configurations,0.19730738300131634
+tuning,0.8,45,No event,14 detector configurations,0.18911636700067902
+tuning,0.8,45,Level shift,14 detector configurations,0.19230757099285256
+tuning,0.8,45,Random spikes,14 detector configurations,0.20441343200218398
+tuning,0.8,45,Temporary seasonality,14 detector configurations,0.1949889159950544
+tuning,0.8,45,Gradual trend,14 detector configurations,0.18965010099782376
+tuning,0.8,45,Rise and recovery,14 detector configurations,0.1840636289998656
+tuning,0.8,45,LOB offer,14 detector configurations,0.18059996199735906
+tuning,0.8,45,Developing-market offer,14 detector configurations,0.18787624499964295
+tuning,0.8,45,English-market offer,14 detector configurations,0.21229879800375784
+tuning,0.8,45,Mixed events,14 detector configurations,0.18854608399851713
+tuning,1.6,42,No event,14 detector configurations,0.19212818600499304
+tuning,1.6,42,Level shift,14 detector configurations,0.1876001489945338
+tuning,1.6,42,Random spikes,14 detector configurations,0.19719075600005453
+tuning,1.6,42,Temporary seasonality,14 detector configurations,0.18177336000371724
+tuning,1.6,42,Gradual trend,14 detector configurations,0.20387600499816472
+tuning,1.6,42,Rise and recovery,14 detector configurations,0.19275294500403106
+tuning,1.6,42,LOB offer,14 detector configurations,0.1899738840002101
+tuning,1.6,42,Developing-market offer,14 detector configurations,0.1838019990027533
+tuning,1.6,42,English-market offer,14 detector configurations,0.18232132599951
+tuning,1.6,42,Mixed events,14 detector configurations,0.1849428790010279
+tuning,1.6,43,No event,14 detector configurations,0.1852844829991227
+tuning,1.6,43,Level shift,14 detector configurations,0.1987788799960981
+tuning,1.6,43,Random spikes,14 detector configurations,0.20905040799698327
+tuning,1.6,43,Temporary seasonality,14 detector configurations,0.1857970170021872
+tuning,1.6,43,Gradual trend,14 detector configurations,0.19539323399658315
+tuning,1.6,43,Rise and recovery,14 detector configurations,0.19401409000420244
+tuning,1.6,43,LOB offer,14 detector configurations,0.18198964600014733
+tuning,1.6,43,Developing-market offer,14 detector configurations,0.18831287600187352
+tuning,1.6,43,English-market offer,14 detector configurations,0.18334231300104875
+tuning,1.6,43,Mixed events,14 detector configurations,0.19067475799965905
+tuning,1.6,44,No event,14 detector configurations,0.18966801000351552
+tuning,1.6,44,Level shift,14 detector configurations,0.18215135799982818
+tuning,1.6,44,Random spikes,14 detector configurations,0.19576723800128093
+tuning,1.6,44,Temporary seasonality,14 detector configurations,0.19176211600279203
+tuning,1.6,44,Gradual trend,14 detector configurations,0.18165192200103775
+tuning,1.6,44,Rise and recovery,14 detector configurations,0.188661381995189
+tuning,1.6,44,LOB offer,14 detector configurations,0.18131510599778267
+tuning,1.6,44,Developing-market offer,14 detector configurations,0.21887838399561588
+tuning,1.6,44,English-market offer,14 detector configurations,0.22534063900093315
+tuning,1.6,44,Mixed events,14 detector configurations,0.21271000999695389
+tuning,1.6,45,No event,14 detector configurations,0.20553005900001153
+tuning,1.6,45,Level shift,14 detector configurations,0.2119828389986651
+tuning,1.6,45,Random spikes,14 detector configurations,0.1921758820026298
+tuning,1.6,45,Temporary seasonality,14 detector configurations,0.1973000250000041
+tuning,1.6,45,Gradual trend,14 detector configurations,0.1903971170031582
+tuning,1.6,45,Rise and recovery,14 detector configurations,0.18764265399659052
+tuning,1.6,45,LOB offer,14 detector configurations,0.2129420829951414
+tuning,1.6,45,Developing-market offer,14 detector configurations,0.18291984800453065
+tuning,1.6,45,English-market offer,14 detector configurations,0.187850055997842
+tuning,1.6,45,Mixed events,14 detector configurations,0.1908317299967166
+heldout,0.8,10042,No event,14 detector configurations,0.19204438199813012
+heldout,0.8,10042,Level shift,14 detector configurations,0.19649495300109265
+heldout,0.8,10042,Random spikes,14 detector configurations,0.1834408130016527
+heldout,0.8,10042,Temporary seasonality,14 detector configurations,0.18872640599875012
+heldout,0.8,10042,Gradual trend,14 detector configurations,0.189643713994883
+heldout,0.8,10042,Rise and recovery,14 detector configurations,0.18743296100001317
+heldout,0.8,10042,LOB offer,14 detector configurations,0.19272493000607938
+heldout,0.8,10042,Developing-market offer,14 detector configurations,0.18426366200583288
+heldout,0.8,10042,English-market offer,14 detector configurations,0.19031263299984857
+heldout,0.8,10042,Mixed events,14 detector configurations,0.19559276800282532
+heldout,0.8,10043,No event,14 detector configurations,0.18766530400171177
+heldout,0.8,10043,Level shift,14 detector configurations,0.18802802300342591
+heldout,0.8,10043,Random spikes,14 detector configurations,0.20761562600091565
+heldout,0.8,10043,Temporary seasonality,14 detector configurations,0.1806147469978896
+heldout,0.8,10043,Gradual trend,14 detector configurations,0.18486861100245733
+heldout,0.8,10043,Rise and recovery,14 detector configurations,0.18618738999794004
+heldout,0.8,10043,LOB offer,14 detector configurations,0.19029198999487562
+heldout,0.8,10043,Developing-market offer,14 detector configurations,0.19923020400165115
+heldout,0.8,10043,English-market offer,14 detector configurations,0.1841383249993669
+heldout,0.8,10043,Mixed events,14 detector configurations,0.18997611800296
+heldout,0.8,10044,No event,14 detector configurations,0.19000032100302633
+heldout,0.8,10044,Level shift,14 detector configurations,0.19912806899810676
+heldout,0.8,10044,Random spikes,14 detector configurations,0.19525458099815296
+heldout,0.8,10044,Temporary seasonality,14 detector configurations,0.18809692100330722
+heldout,0.8,10044,Gradual trend,14 detector configurations,0.19260110200411873
+heldout,0.8,10044,Rise and recovery,14 detector configurations,0.18329192000237526
+heldout,0.8,10044,LOB offer,14 detector configurations,0.1870997859950876
+heldout,0.8,10044,Developing-market offer,14 detector configurations,0.19373322300089058
+heldout,0.8,10044,English-market offer,14 detector configurations,0.18422625899984268
+heldout,0.8,10044,Mixed events,14 detector configurations,0.19302897599845892
+heldout,0.8,10045,No event,14 detector configurations,0.2034481539958506
+heldout,0.8,10045,Level shift,14 detector configurations,0.19337838800129248
+heldout,0.8,10045,Random spikes,14 detector configurations,0.19794875600200612
+heldout,0.8,10045,Temporary seasonality,14 detector configurations,0.17910811900219414
+heldout,0.8,10045,Gradual trend,14 detector configurations,0.2097240039947792
+heldout,0.8,10045,Rise and recovery,14 detector configurations,0.19928721299947938
+heldout,0.8,10045,LOB offer,14 detector configurations,0.17997249300242402
+heldout,0.8,10045,Developing-market offer,14 detector configurations,0.20223880800040206
+heldout,0.8,10045,English-market offer,14 detector configurations,0.20663359999889508
+heldout,0.8,10045,Mixed events,14 detector configurations,0.21006367800146108
+heldout,0.8,10046,No event,14 detector configurations,0.20597799900133396
+heldout,0.8,10046,Level shift,14 detector configurations,0.18685936799738556
+heldout,0.8,10046,Random spikes,14 detector configurations,0.1844636800014996
+heldout,0.8,10046,Temporary seasonality,14 detector configurations,0.18141817400464788
+heldout,0.8,10046,Gradual trend,14 detector configurations,0.1933657100016717
+heldout,0.8,10046,Rise and recovery,14 detector configurations,0.20244917400123086
+heldout,0.8,10046,LOB offer,14 detector configurations,0.1803497509972658
+heldout,0.8,10046,Developing-market offer,14 detector configurations,0.18376712300232612
+heldout,0.8,10046,English-market offer,14 detector configurations,0.19902126899978612
+heldout,0.8,10046,Mixed events,14 detector configurations,0.1951172420012881
+heldout,0.8,10047,No event,14 detector configurations,0.2214017629958107
+heldout,0.8,10047,Level shift,14 detector configurations,0.19786653500341345
+heldout,0.8,10047,Random spikes,14 detector configurations,0.21082183199905558
+heldout,0.8,10047,Temporary seasonality,14 detector configurations,0.20336323100491427
+heldout,0.8,10047,Gradual trend,14 detector configurations,0.18071992999466602
+heldout,0.8,10047,Rise and recovery,14 detector configurations,0.1893236369942315
+heldout,0.8,10047,LOB offer,14 detector configurations,0.1814556809986243
+heldout,0.8,10047,Developing-market offer,14 detector configurations,0.18104459100140957
+heldout,0.8,10047,English-market offer,14 detector configurations,0.19309344799694372
+heldout,0.8,10047,Mixed events,14 detector configurations,0.18780041100399103
+heldout,0.8,10048,No event,14 detector configurations,0.2029476989991963
+heldout,0.8,10048,Level shift,14 detector configurations,0.1971055210015038
+heldout,0.8,10048,Random spikes,14 detector configurations,0.19410252099623904
+heldout,0.8,10048,Temporary seasonality,14 detector configurations,0.19095592400117312
+heldout,0.8,10048,Gradual trend,14 detector configurations,0.18798138800048037
+heldout,0.8,10048,Rise and recovery,14 detector configurations,0.18793929300591117
+heldout,0.8,10048,LOB offer,14 detector configurations,0.18074035899917362
+heldout,0.8,10048,Developing-market offer,14 detector configurations,0.18754482499934966
+heldout,0.8,10048,English-market offer,14 detector configurations,0.18326244500349276
+heldout,0.8,10048,Mixed events,14 detector configurations,0.18465536699659424
+heldout,0.8,10049,No event,14 detector configurations,0.19987426300212974
+heldout,0.8,10049,Level shift,14 detector configurations,0.1964428549981676
+heldout,0.8,10049,Random spikes,14 detector configurations,0.19960076799907256
+heldout,0.8,10049,Temporary seasonality,14 detector configurations,0.18235836899839342
+heldout,0.8,10049,Gradual trend,14 detector configurations,0.17953383900021436
+heldout,0.8,10049,Rise and recovery,14 detector configurations,0.18344238399731694
+heldout,0.8,10049,LOB offer,14 detector configurations,0.18461969099735143
+heldout,0.8,10049,Developing-market offer,14 detector configurations,0.20303844699810725
+heldout,0.8,10049,English-market offer,14 detector configurations,0.19661652500508353
+heldout,0.8,10049,Mixed events,14 detector configurations,0.1796610979945399
+heldout,1.6,10042,No event,14 detector configurations,0.18433024200203363
+heldout,1.6,10042,Level shift,14 detector configurations,0.18707811999775004
+heldout,1.6,10042,Random spikes,14 detector configurations,0.20888492400263203
+heldout,1.6,10042,Temporary seasonality,14 detector configurations,0.19133115500153508
+heldout,1.6,10042,Gradual trend,14 detector configurations,0.20625872800155776
+heldout,1.6,10042,Rise and recovery,14 detector configurations,0.19540893800149206
+heldout,1.6,10042,LOB offer,14 detector configurations,0.19459762900078204
+heldout,1.6,10042,Developing-market offer,14 detector configurations,0.18578989499656018
+heldout,1.6,10042,English-market offer,14 detector configurations,0.20160531400324544
+heldout,1.6,10042,Mixed events,14 detector configurations,0.18146438300027512
+heldout,1.6,10043,No event,14 detector configurations,0.2022035900008632
+heldout,1.6,10043,Level shift,14 detector configurations,0.19125043600070057
+heldout,1.6,10043,Random spikes,14 detector configurations,0.19931072899635183
+heldout,1.6,10043,Temporary seasonality,14 detector configurations,0.19701846899988595
+heldout,1.6,10043,Gradual trend,14 detector configurations,0.1832287279976299
+heldout,1.6,10043,Rise and recovery,14 detector configurations,0.19363868799700867
+heldout,1.6,10043,LOB offer,14 detector configurations,0.18428801499976544
+heldout,1.6,10043,Developing-market offer,14 detector configurations,0.21556803900602972
+heldout,1.6,10043,English-market offer,14 detector configurations,0.20761674099776428
+heldout,1.6,10043,Mixed events,14 detector configurations,0.1877248660020996
+heldout,1.6,10044,No event,14 detector configurations,0.19087641000078293
+heldout,1.6,10044,Level shift,14 detector configurations,0.17878809100511717
+heldout,1.6,10044,Random spikes,14 detector configurations,0.1940372219978599
+heldout,1.6,10044,Temporary seasonality,14 detector configurations,0.2025105069988058
+heldout,1.6,10044,Gradual trend,14 detector configurations,0.19208895900374046
+heldout,1.6,10044,Rise and recovery,14 detector configurations,0.1991473579982994
+heldout,1.6,10044,LOB offer,14 detector configurations,0.1926738190013566
+heldout,1.6,10044,Developing-market offer,14 detector configurations,0.1796236099980888
+heldout,1.6,10044,English-market offer,14 detector configurations,0.19345736099785427
+heldout,1.6,10044,Mixed events,14 detector configurations,0.18505022899626056
+heldout,1.6,10045,No event,14 detector configurations,0.20846618900395697
+heldout,1.6,10045,Level shift,14 detector configurations,0.19250579799700063
+heldout,1.6,10045,Random spikes,14 detector configurations,0.18295407699770294
+heldout,1.6,10045,Temporary seasonality,14 detector configurations,0.20491448699613102
+heldout,1.6,10045,Gradual trend,14 detector configurations,0.18604372299887473
+heldout,1.6,10045,Rise and recovery,14 detector configurations,0.17630229399946984
+heldout,1.6,10045,LOB offer,14 detector configurations,0.1807569130032789
+heldout,1.6,10045,Developing-market offer,14 detector configurations,0.20358461599971633
+heldout,1.6,10045,English-market offer,14 detector configurations,0.20654733099945588
+heldout,1.6,10045,Mixed events,14 detector configurations,0.20195908599998802
+heldout,1.6,10046,No event,14 detector configurations,0.19288822599628475
+heldout,1.6,10046,Level shift,14 detector configurations,0.19212180100294063
+heldout,1.6,10046,Random spikes,14 detector configurations,0.22149445000104606
+heldout,1.6,10046,Temporary seasonality,14 detector configurations,0.19515210799727356
+heldout,1.6,10046,Gradual trend,14 detector configurations,0.1829011250010808
+heldout,1.6,10046,Rise and recovery,14 detector configurations,0.21487583099951735
+heldout,1.6,10046,LOB offer,14 detector configurations,0.21886562000145204
+heldout,1.6,10046,Developing-market offer,14 detector configurations,0.20913260700035607
+heldout,1.6,10046,English-market offer,14 detector configurations,0.18576744799793232
+heldout,1.6,10046,Mixed events,14 detector configurations,0.18869955200352706
+heldout,1.6,10047,No event,14 detector configurations,0.19218765000550775
+heldout,1.6,10047,Level shift,14 detector configurations,0.19875977800256805
+heldout,1.6,10047,Random spikes,14 detector configurations,0.19397214300261112
+heldout,1.6,10047,Temporary seasonality,14 detector configurations,0.20272602499608183
+heldout,1.6,10047,Gradual trend,14 detector configurations,0.1858377440003096
+heldout,1.6,10047,Rise and recovery,14 detector configurations,0.1877982130026794
+heldout,1.6,10047,LOB offer,14 detector configurations,0.1876816139993025
+heldout,1.6,10047,Developing-market offer,14 detector configurations,0.18197376700118184
+heldout,1.6,10047,English-market offer,14 detector configurations,0.187730615005421
+heldout,1.6,10047,Mixed events,14 detector configurations,0.18061027099611238
+heldout,1.6,10048,No event,14 detector configurations,0.18998135800211458
+heldout,1.6,10048,Level shift,14 detector configurations,0.18481392900139326
+heldout,1.6,10048,Random spikes,14 detector configurations,0.17843726599676302
+heldout,1.6,10048,Temporary seasonality,14 detector configurations,0.19331846899876837
+heldout,1.6,10048,Gradual trend,14 detector configurations,0.17678924999927403
+heldout,1.6,10048,Rise and recovery,14 detector configurations,0.18954788100381847
+heldout,1.6,10048,LOB offer,14 detector configurations,0.19450161499844398
+heldout,1.6,10048,Developing-market offer,14 detector configurations,0.17763270800060127
+heldout,1.6,10048,English-market offer,14 detector configurations,0.18993238099938026
+heldout,1.6,10048,Mixed events,14 detector configurations,0.17705371000192827
+heldout,1.6,10049,No event,14 detector configurations,0.1886795210011769
+heldout,1.6,10049,Level shift,14 detector configurations,0.19735351200506557
+heldout,1.6,10049,Random spikes,14 detector configurations,0.18020302000513766
+heldout,1.6,10049,Temporary seasonality,14 detector configurations,0.17821600300521823
+heldout,1.6,10049,Gradual trend,14 detector configurations,0.17958681100571994
+heldout,1.6,10049,Rise and recovery,14 detector configurations,0.18412887600425165
+heldout,1.6,10049,LOB offer,14 detector configurations,0.18631671499315416
+heldout,1.6,10049,Developing-market offer,14 detector configurations,0.18368337400170276
+heldout,1.6,10049,English-market offer,14 detector configurations,0.1999548399980995
+heldout,1.6,10049,Mixed events,14 detector configurations,0.18513707700185478

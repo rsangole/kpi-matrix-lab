@@ -51,3 +51,16 @@ For a hosted UI, deploy `app.py` with Streamlit Community Cloud using this repos
 Open [`reports/weekly_detection.html`](reports/weekly_detection.html) in a browser (download the file from GitHub first). It embeds all charts and works offline. It includes the original US pairs, controlled level/growth/shape departures, tuning and independent held-out results, false-alert estimates and alternative methods for large KPI universes.
 
 Regenerate with `python build_report.py`. See [WEEKLY_DETECTION.md](WEEKLY_DETECTION.md) for experiment definitions and references. The optional **Weekly detection lab** tab exposes the same causal benchmark. Exploratory tabs now label scores by **window-ending date**; they remain retrospective, as disclosed in the UI.
+
+## 280-series scale and event suite
+
+The generator and app now support **seven LOBs × forty geographies**. Run these scripts for six-month runtime and quality benchmarks:
+
+```bash
+python benchmark_scale.py
+python run_suite.py
+```
+
+Open `reports/performance_280.html` for measured runtime/memory and `reports/event_suite_280.html` for held-out error metrics over level shifts, random spikes, temporary seasonality, gradual trends, rise/recovery, LOB offers, developing-market offers, English-market offers, and their mixed overlap. Both reports embed charts for offline viewing. On GitHub Pages, the root landing page links to all reports.
+
+The event suite evaluates five detector families: frozen-history matrix profiles, learned-peer shape distances, peer residual means, peer residual spikes and residual CUSUM. Training and calibration each use 56 days of the 180-day history. Four seeds tune settings; eight separate seeds validate, at two noise levels. Counts and settings are exported in `data/event_suite_*.csv`; the reproducible mixed dataset and exact event ledger are included. Full methodology and limitations appear in the report.
