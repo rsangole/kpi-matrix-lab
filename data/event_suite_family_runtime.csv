@@ -1,0 +1,46 @@
+workload,repeat,seconds
+Peer learning and residual fitting,0,0.02658913200139068
+Historical matrix profile / 7d,0,0.011213587997190189
+Peer shape distance / 7d,0,0.01733655000134604
+Peer residual mean / 7d,0,0.0053390710017993115
+Historical matrix profile / 14d,0,0.013108906001434661
+Peer shape distance / 14d,0,0.03176021899707848
+Peer residual mean / 14d,0,0.005442847002996132
+Historical matrix profile / 28d,0,0.011380420000932645
+Peer shape distance / 28d,0,0.03544638700259384
+Peer residual mean / 28d,0,0.0051459489986882545
+Historical matrix profile / 42d,0,0.01656075099890586
+Peer shape distance / 42d,0,0.04692351399717154
+Peer residual mean / 42d,0,0.005275184994388837
+Peer residual spike,0,1.615499786566943e-05
+Peer residual CUSUM,0,0.0007978229987202212
+Peer learning and residual fitting,1,0.017640158999711275
+Historical matrix profile / 7d,1,0.0075615509995259345
+Peer shape distance / 7d,1,0.014840036004898138
+Peer residual mean / 7d,1,0.0051274110010126606
+Historical matrix profile / 14d,1,0.007573410002805758
+Peer shape distance / 14d,1,0.02280138099740725
+Peer residual mean / 14d,1,0.0063193090027198195
+Historical matrix profile / 28d,1,0.010298018001776654
+Peer shape distance / 28d,1,0.029897429994889535
+Peer residual mean / 28d,1,0.005410599005699623
+Historical matrix profile / 42d,1,0.010130456001206767
+Peer shape distance / 42d,1,0.04007727000134764
+Peer residual mean / 42d,1,0.0052856999973300844
+Peer residual spike,1,1.943900133483112e-05
+Peer residual CUSUM,1,0.0007464549998985603
+Peer learning and residual fitting,2,0.018147923998185433
+Historical matrix profile / 7d,2,0.007928054998046719
+Peer shape distance / 7d,2,0.015438338996318635
+Peer residual mean / 7d,2,0.0051153230015188456
+Historical matrix profile / 14d,2,0.007362461001321208
+Peer shape distance / 14d,2,0.0201027229995816
+Peer residual mean / 14d,2,0.005159398999239784
+Historical matrix profile / 28d,2,0.010649006995663512
+Peer shape distance / 28d,2,0.029551279003499076
+Peer residual mean / 28d,2,0.005295666000165511
+Historical matrix profile / 42d,2,0.010721176004153676
+Peer shape distance / 42d,2,0.03707135900185676
+Peer residual mean / 42d,2,0.005302575002133381
+Peer residual spike,2,1.4402001397684216e-05
+Peer residual CUSUM,2,0.0006762500051991083

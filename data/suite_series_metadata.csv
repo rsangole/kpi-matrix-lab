@@ -1,0 +1,281 @@
+series,lob,geo,developing_test_cohort,english_test_cohort
+0,TV+,US,False,True
+1,TV+,UK,False,True
+2,TV+,Canada,False,True
+3,TV+,Australia,False,True
+4,TV+,Germany,False,False
+5,TV+,France,False,False
+6,TV+,Japan,False,False
+7,TV+,India,True,False
+8,TV+,Brazil,True,False
+9,TV+,China,True,False
+10,TV+,Italy,False,False
+11,TV+,Spain,False,False
+12,TV+,Netherlands,False,False
+13,TV+,Sweden,False,False
+14,TV+,Norway,False,False
+15,TV+,Denmark,False,False
+16,TV+,Finland,False,False
+17,TV+,Switzerland,False,False
+18,TV+,Austria,False,False
+19,TV+,Belgium,False,False
+20,TV+,Ireland,False,True
+21,TV+,Portugal,False,False
+22,TV+,Poland,False,False
+23,TV+,Czechia,False,False
+24,TV+,Mexico,True,False
+25,TV+,Argentina,True,False
+26,TV+,Chile,True,False
+27,TV+,Colombia,True,False
+28,TV+,South Korea,False,False
+29,TV+,Taiwan,False,False
+30,TV+,Hong Kong,False,False
+31,TV+,Singapore,False,False
+32,TV+,Malaysia,True,False
+33,TV+,Thailand,True,False
+34,TV+,Indonesia,True,False
+35,TV+,Philippines,True,False
+36,TV+,Vietnam,True,False
+37,TV+,New Zealand,False,True
+38,TV+,UAE,False,False
+39,TV+,South Africa,True,False
+40,App Store,US,False,True
+41,App Store,UK,False,True
+42,App Store,Canada,False,True
+43,App Store,Australia,False,True
+44,App Store,Germany,False,False
+45,App Store,France,False,False
+46,App Store,Japan,False,False
+47,App Store,India,True,False
+48,App Store,Brazil,True,False
+49,App Store,China,True,False
+50,App Store,Italy,False,False
+51,App Store,Spain,False,False
+52,App Store,Netherlands,False,False
+53,App Store,Sweden,False,False
+54,App Store,Norway,False,False
+55,App Store,Denmark,False,False
+56,App Store,Finland,False,False
+57,App Store,Switzerland,False,False
+58,App Store,Austria,False,False
+59,App Store,Belgium,False,False
+60,App Store,Ireland,False,True
+61,App Store,Portugal,False,False
+62,App Store,Poland,False,False
+63,App Store,Czechia,False,False
+64,App Store,Mexico,True,False
+65,App Store,Argentina,True,False
+66,App Store,Chile,True,False
+67,App Store,Colombia,True,False
+68,App Store,South Korea,False,False
+69,App Store,Taiwan,False,False
+70,App Store,Hong Kong,False,False
+71,App Store,Singapore,False,False
+72,App Store,Malaysia,True,False
+73,App Store,Thailand,True,False
+74,App Store,Indonesia,True,False
+75,App Store,Philippines,True,False
+76,App Store,Vietnam,True,False
+77,App Store,New Zealand,False,True
+78,App Store,UAE,False,False
+79,App Store,South Africa,True,False
+80,Fitness+,US,False,True
+81,Fitness+,UK,False,True
+82,Fitness+,Canada,False,True
+83,Fitness+,Australia,False,True
+84,Fitness+,Germany,False,False
+85,Fitness+,France,False,False
+86,Fitness+,Japan,False,False
+87,Fitness+,India,True,False
+88,Fitness+,Brazil,True,False
+89,Fitness+,China,True,False
+90,Fitness+,Italy,False,False
+91,Fitness+,Spain,False,False
+92,Fitness+,Netherlands,False,False
+93,Fitness+,Sweden,False,False
+94,Fitness+,Norway,False,False
+95,Fitness+,Denmark,False,False
+96,Fitness+,Finland,False,False
+97,Fitness+,Switzerland,False,False
+98,Fitness+,Austria,False,False
+99,Fitness+,Belgium,False,False
+100,Fitness+,Ireland,False,True
+101,Fitness+,Portugal,False,False
+102,Fitness+,Poland,False,False
+103,Fitness+,Czechia,False,False
+104,Fitness+,Mexico,True,False
+105,Fitness+,Argentina,True,False
+106,Fitness+,Chile,True,False
+107,Fitness+,Colombia,True,False
+108,Fitness+,South Korea,False,False
+109,Fitness+,Taiwan,False,False
+110,Fitness+,Hong Kong,False,False
+111,Fitness+,Singapore,False,False
+112,Fitness+,Malaysia,True,False
+113,Fitness+,Thailand,True,False
+114,Fitness+,Indonesia,True,False
+115,Fitness+,Philippines,True,False
+116,Fitness+,Vietnam,True,False
+117,Fitness+,New Zealand,False,True
+118,Fitness+,UAE,False,False
+119,Fitness+,South Africa,True,False
+120,News+,US,False,True
+121,News+,UK,False,True
+122,News+,Canada,False,True
+123,News+,Australia,False,True
+124,News+,Germany,False,False
+125,News+,France,False,False
+126,News+,Japan,False,False
+127,News+,India,True,False
+128,News+,Brazil,True,False
+129,News+,China,True,False
+130,News+,Italy,False,False
+131,News+,Spain,False,False
+132,News+,Netherlands,False,False
+133,News+,Sweden,False,False
+134,News+,Norway,False,False
+135,News+,Denmark,False,False
+136,News+,Finland,False,False
+137,News+,Switzerland,False,False
+138,News+,Austria,False,False
+139,News+,Belgium,False,False
+140,News+,Ireland,False,True
+141,News+,Portugal,False,False
+142,News+,Poland,False,False
+143,News+,Czechia,False,False
+144,News+,Mexico,True,False
+145,News+,Argentina,True,False
+146,News+,Chile,True,False
+147,News+,Colombia,True,False
+148,News+,South Korea,False,False
+149,News+,Taiwan,False,False
+150,News+,Hong Kong,False,False
+151,News+,Singapore,False,False
+152,News+,Malaysia,True,False
+153,News+,Thailand,True,False
+154,News+,Indonesia,True,False
+155,News+,Philippines,True,False
+156,News+,Vietnam,True,False
+157,News+,New Zealand,False,True
+158,News+,UAE,False,False
+159,News+,South Africa,True,False
+160,Apple TV hardware,US,False,True
+161,Apple TV hardware,UK,False,True
+162,Apple TV hardware,Canada,False,True
+163,Apple TV hardware,Australia,False,True
+164,Apple TV hardware,Germany,False,False
+165,Apple TV hardware,France,False,False
+166,Apple TV hardware,Japan,False,False
+167,Apple TV hardware,India,True,False
+168,Apple TV hardware,Brazil,True,False
+169,Apple TV hardware,China,True,False
+170,Apple TV hardware,Italy,False,False
+171,Apple TV hardware,Spain,False,False
+172,Apple TV hardware,Netherlands,False,False
+173,Apple TV hardware,Sweden,False,False
+174,Apple TV hardware,Norway,False,False
+175,Apple TV hardware,Denmark,False,False
+176,Apple TV hardware,Finland,False,False
+177,Apple TV hardware,Switzerland,False,False
+178,Apple TV hardware,Austria,False,False
+179,Apple TV hardware,Belgium,False,False
+180,Apple TV hardware,Ireland,False,True
+181,Apple TV hardware,Portugal,False,False
+182,Apple TV hardware,Poland,False,False
+183,Apple TV hardware,Czechia,False,False
+184,Apple TV hardware,Mexico,True,False
+185,Apple TV hardware,Argentina,True,False
+186,Apple TV hardware,Chile,True,False
+187,Apple TV hardware,Colombia,True,False
+188,Apple TV hardware,South Korea,False,False
+189,Apple TV hardware,Taiwan,False,False
+190,Apple TV hardware,Hong Kong,False,False
+191,Apple TV hardware,Singapore,False,False
+192,Apple TV hardware,Malaysia,True,False
+193,Apple TV hardware,Thailand,True,False
+194,Apple TV hardware,Indonesia,True,False
+195,Apple TV hardware,Philippines,True,False
+196,Apple TV hardware,Vietnam,True,False
+197,Apple TV hardware,New Zealand,False,True
+198,Apple TV hardware,UAE,False,False
+199,Apple TV hardware,South Africa,True,False
+200,Music,US,False,True
+201,Music,UK,False,True
+202,Music,Canada,False,True
+203,Music,Australia,False,True
+204,Music,Germany,False,False
+205,Music,France,False,False
+206,Music,Japan,False,False
+207,Music,India,True,False
+208,Music,Brazil,True,False
+209,Music,China,True,False
+210,Music,Italy,False,False
+211,Music,Spain,False,False
+212,Music,Netherlands,False,False
+213,Music,Sweden,False,False
+214,Music,Norway,False,False
+215,Music,Denmark,False,False
+216,Music,Finland,False,False
+217,Music,Switzerland,False,False
+218,Music,Austria,False,False
+219,Music,Belgium,False,False
+220,Music,Ireland,False,True
+221,Music,Portugal,False,False
+222,Music,Poland,False,False
+223,Music,Czechia,False,False
+224,Music,Mexico,True,False
+225,Music,Argentina,True,False
+226,Music,Chile,True,False
+227,Music,Colombia,True,False
+228,Music,South Korea,False,False
+229,Music,Taiwan,False,False
+230,Music,Hong Kong,False,False
+231,Music,Singapore,False,False
+232,Music,Malaysia,True,False
+233,Music,Thailand,True,False
+234,Music,Indonesia,True,False
+235,Music,Philippines,True,False
+236,Music,Vietnam,True,False
+237,Music,New Zealand,False,True
+238,Music,UAE,False,False
+239,Music,South Africa,True,False
+240,Cloud storage,US,False,True
+241,Cloud storage,UK,False,True
+242,Cloud storage,Canada,False,True
+243,Cloud storage,Australia,False,True
+244,Cloud storage,Germany,False,False
+245,Cloud storage,France,False,False
+246,Cloud storage,Japan,False,False
+247,Cloud storage,India,True,False
+248,Cloud storage,Brazil,True,False
+249,Cloud storage,China,True,False
+250,Cloud storage,Italy,False,False
+251,Cloud storage,Spain,False,False
+252,Cloud storage,Netherlands,False,False
+253,Cloud storage,Sweden,False,False
+254,Cloud storage,Norway,False,False
+255,Cloud storage,Denmark,False,False
+256,Cloud storage,Finland,False,False
+257,Cloud storage,Switzerland,False,False
+258,Cloud storage,Austria,False,False
+259,Cloud storage,Belgium,False,False
+260,Cloud storage,Ireland,False,True
+261,Cloud storage,Portugal,False,False
+262,Cloud storage,Poland,False,False
+263,Cloud storage,Czechia,False,False
+264,Cloud storage,Mexico,True,False
+265,Cloud storage,Argentina,True,False
+266,Cloud storage,Chile,True,False
+267,Cloud storage,Colombia,True,False
+268,Cloud storage,South Korea,False,False
+269,Cloud storage,Taiwan,False,False
+270,Cloud storage,Hong Kong,False,False
+271,Cloud storage,Singapore,False,False
+272,Cloud storage,Malaysia,True,False
+273,Cloud storage,Thailand,True,False
+274,Cloud storage,Indonesia,True,False
+275,Cloud storage,Philippines,True,False
+276,Cloud storage,Vietnam,True,False
+277,Cloud storage,New Zealand,False,True
+278,Cloud storage,UAE,False,False
+279,Cloud storage,South Africa,True,False
