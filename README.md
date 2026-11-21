@@ -5,13 +5,11 @@ An interactive matrix-profile laboratory for exploring business signals across p
 ## Run
 
 ```bash
-python -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
-streamlit run app.py
+uv sync
+uv run streamlit run app.py
 ```
 
-Open http://localhost:8501. Python 3.11+ recommended.
+Open http://localhost:8501. Requires [uv](https://docs.astral.sh/uv/) and Python 3.11+ (pinned to 3.13 via `.python-version`).
 
 ## Explore
 
@@ -31,8 +29,7 @@ Centered trend removal and weekday adjustment are retrospective, not suitable fo
 ## Test
 
 ```bash
-pip install pytest
-python -m pytest -q
+uv run pytest -q
 ```
 
 A seeded snapshot is included in `data/`. See [DEMO.md](DEMO.md) for a reproducible walkthrough with measured example distances.
